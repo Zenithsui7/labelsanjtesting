@@ -1,0 +1,23 @@
+{
+  "name": "zenithsui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "create-owner": "node create-owner.js"
+  },
+  "dependencies": {
+    "firebase": "^10.12.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "firebase-admin": "^12.0.0",
+    "firebase-tools": "^15.18.0",
+    "vite": "^5.4.2"
+  }
+}
